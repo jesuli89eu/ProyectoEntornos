@@ -2,11 +2,17 @@ package proyecto.entornos;
 
 import java.time.LocalDate;
 import java.util.Scanner;
-
+/**
+ * 
+ * @author Jesul
+ */
 public class ProyectoEntornos {
 
     static Scanner sc = new Scanner(System.in);
-
+    /**
+     * 
+     * @param args 
+     */
     public static void main(String[] args) {
         boolean continua;
         String anio = "años completos";
@@ -84,7 +90,10 @@ public class ProyectoEntornos {
 
         System.out.println("La edad es " + edad + " " + anio + ".");
     }
-
+    /**
+     * 
+     * @return 
+     */
     public static int ingresarAnio() {
         int anio;
         System.out.println("Introduce el año de nacimiento.");
@@ -92,7 +101,10 @@ public class ProyectoEntornos {
 
         return anio;
     }
-    
+    /**
+     * 
+     * @return 
+     */
     public static int ingresarMes() {
         int mes;
         System.out.println("Introduce el mes de nacimiento.");
@@ -100,7 +112,10 @@ public class ProyectoEntornos {
 
         return mes;
     }
-    
+    /**
+     * 
+     * @return 
+     */
     public static int ingresarDia() {
         int dia;
         System.out.println("Introduce el día de nacimiento.");
