@@ -114,7 +114,7 @@ public class ProyectoEntornos {
     }
     /**
      * 
-     * @return 
+     * @return el dia como int
      */
     public static int ingresarDia() {
         int dia;
